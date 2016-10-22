@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+    <name>ModernPVC</name>
+    <creationDate>16.03.2016</creationDate>
+    <author>salexpro</author>
+    <authorEmail>dev@salex.pro</authorEmail>
+    <authorUrl>http://salex.pro</authorUrl>
+    <copyright>© 2016 salexpro</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>2.0</version>
+    <description>Шаблон Современные Окна</description>
+    <files>
+        <folder>css</folder>
+        <folder>img</folder>
+        <folder>js</folder>
+        <folder>language</folder>
+        <folder>html</folder>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+        <filename>index.php</filename>
+        <filename>template_preview.png</filename>
+        <filename>template_thumbnail.png</filename>
+        <filename>templateDetails.xml</filename>
+    </files>
+    <positions>
+        <position>header</position>
+        <position>menu</position>
+        <position>share</position>
+        <position>sidebar</position>
+        <position>slider</position>
+        <position>call</position>
+        <position>services</position>
+        <position>products</position>
+        <position>callsect</position>
+        <position>why</position>
+        <position>about</position>
+        <position>how</position>
+        <position>portfolio</position>
+        <position>reviews</position>
+        <position>footer</position>
+    </positions>
+    <languages folder="language">
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_modernpvc.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_modernpvc.sys.ini</language>
+    </languages>
+</extension>
