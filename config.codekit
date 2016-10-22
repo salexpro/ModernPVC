@@ -293,7 +293,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/bxslider-4\/src\/images\/controls.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/bxslider-4\/src\/js\/jquery.bxslider.js": {
 		"fileType": 64,
@@ -4417,187 +4417,110 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/about.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 49675,
-		"inputAbbreviatedPath": "\/img\/about.jpg",
-		"outputAbbreviatedPath": "\/img\/about.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/deco.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8101,
+		"initialSize": 7187,
 		"inputAbbreviatedPath": "\/img\/deco.jpg",
 		"outputAbbreviatedPath": "\/img\/deco.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/design.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7313,
+		"initialSize": 6410,
 		"inputAbbreviatedPath": "\/img\/design.jpg",
 		"outputAbbreviatedPath": "\/img\/design.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/designplus.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8165,
+		"initialSize": 7262,
 		"inputAbbreviatedPath": "\/img\/designplus.jpg",
 		"outputAbbreviatedPath": "\/img\/designplus.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/how\/calc.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16173,
-		"inputAbbreviatedPath": "\/img\/how\/calc.png",
-		"outputAbbreviatedPath": "\/img\/how\/calc.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/how\/delivery.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 53583,
-		"inputAbbreviatedPath": "\/img\/how\/delivery.png",
-		"outputAbbreviatedPath": "\/img\/how\/delivery.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/how\/depart.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 41873,
-		"inputAbbreviatedPath": "\/img\/how\/depart.png",
-		"outputAbbreviatedPath": "\/img\/how\/depart.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/how\/production.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 26670,
-		"inputAbbreviatedPath": "\/img\/how\/production.png",
-		"outputAbbreviatedPath": "\/img\/how\/production.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/how\/reception.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 65196,
-		"inputAbbreviatedPath": "\/img\/how\/reception.png",
-		"outputAbbreviatedPath": "\/img\/how\/reception.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/how\/warr_serv.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 45523,
-		"inputAbbreviatedPath": "\/img\/how\/warr_serv.png",
-		"outputAbbreviatedPath": "\/img\/how\/warr_serv.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icons\/check.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 240,
+		"initialSize": 184,
 		"inputAbbreviatedPath": "\/img\/icons\/check.png",
 		"outputAbbreviatedPath": "\/img\/icons\/check.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icons\/cup.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5754,
+		"initialSize": 4280,
 		"inputAbbreviatedPath": "\/img\/icons\/cup.png",
 		"outputAbbreviatedPath": "\/img\/icons\/cup.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icons\/delivery.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6077,
+		"initialSize": 4379,
 		"inputAbbreviatedPath": "\/img\/icons\/delivery.png",
 		"outputAbbreviatedPath": "\/img\/icons\/delivery.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icons\/garbage.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5704,
+		"initialSize": 3957,
 		"inputAbbreviatedPath": "\/img\/icons\/garbage.png",
 		"outputAbbreviatedPath": "\/img\/icons\/garbage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icons\/install.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7704,
+		"initialSize": 5565,
 		"inputAbbreviatedPath": "\/img\/icons\/install.png",
 		"outputAbbreviatedPath": "\/img\/icons\/install.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icons\/installments.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 9420,
+		"initialSize": 7412,
 		"inputAbbreviatedPath": "\/img\/icons\/installments.png",
 		"outputAbbreviatedPath": "\/img\/icons\/installments.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/icons\/measurement.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6713,
+		"initialSize": 5177,
 		"inputAbbreviatedPath": "\/img\/icons\/measurement.png",
 		"outputAbbreviatedPath": "\/img\/icons\/measurement.png",
 		"outputPathIsOutsideProject": 0,
@@ -4608,7 +4531,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 430,
+		"initialSize": 301,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/about.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/about.png",
 		"outputPathIsOutsideProject": 0,
@@ -4619,7 +4542,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1101,
+		"initialSize": 887,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/apartment.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/apartment.png",
 		"outputPathIsOutsideProject": 0,
@@ -4630,7 +4553,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 542,
+		"initialSize": 435,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/blinds.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/blinds.png",
 		"outputPathIsOutsideProject": 0,
@@ -4641,7 +4564,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 765,
+		"initialSize": 541,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/buy.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/buy.png",
 		"outputPathIsOutsideProject": 0,
@@ -4652,7 +4575,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 860,
+		"initialSize": 678,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/chief.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/chief.png",
 		"outputPathIsOutsideProject": 0,
@@ -4663,7 +4586,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 761,
+		"initialSize": 631,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/consultations.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/consultations.png",
 		"outputPathIsOutsideProject": 0,
@@ -4674,7 +4597,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 575,
+		"initialSize": 544,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/delivery.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/delivery.png",
 		"outputPathIsOutsideProject": 0,
@@ -4685,7 +4608,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 295,
+		"initialSize": 234,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/from_to.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/from_to.png",
 		"outputPathIsOutsideProject": 0,
@@ -4696,7 +4619,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 684,
+		"initialSize": 522,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/garbage.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/garbage.png",
 		"outputPathIsOutsideProject": 0,
@@ -4707,7 +4630,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 641,
+		"initialSize": 528,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/glazing.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/glazing.png",
 		"outputPathIsOutsideProject": 0,
@@ -4718,7 +4641,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 672,
+		"initialSize": 532,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/how_open.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/how_open.png",
 		"outputPathIsOutsideProject": 0,
@@ -4729,7 +4652,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 642,
+		"initialSize": 530,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/hqw.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/hqw.png",
 		"outputPathIsOutsideProject": 0,
@@ -4740,7 +4663,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 821,
+		"initialSize": 1482,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/inst.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/inst.png",
 		"outputPathIsOutsideProject": 0,
@@ -4751,7 +4674,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 881,
+		"initialSize": 706,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/install.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/install.png",
 		"outputPathIsOutsideProject": 0,
@@ -4762,7 +4685,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1017,
+		"initialSize": 853,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/installments.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/installments.png",
 		"outputPathIsOutsideProject": 0,
@@ -4773,7 +4696,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 590,
+		"initialSize": 485,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/interesting.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/interesting.png",
 		"outputPathIsOutsideProject": 0,
@@ -4784,7 +4707,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 353,
+		"initialSize": 309,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/interior.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/interior.png",
 		"outputPathIsOutsideProject": 0,
@@ -4795,7 +4718,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 606,
+		"initialSize": 527,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/jalousie.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/jalousie.png",
 		"outputPathIsOutsideProject": 0,
@@ -4806,7 +4729,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 713,
+		"initialSize": 555,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/measurement.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/measurement.png",
 		"outputPathIsOutsideProject": 0,
@@ -4817,7 +4740,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 439,
+		"initialSize": 361,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/mpw.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/mpw.png",
 		"outputPathIsOutsideProject": 0,
@@ -4828,7 +4751,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 307,
+		"initialSize": 248,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/pvc.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/pvc.png",
 		"outputPathIsOutsideProject": 0,
@@ -4839,7 +4762,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 863,
+		"initialSize": 1524,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/quality.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/quality.png",
 		"outputPathIsOutsideProject": 0,
@@ -4850,7 +4773,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 341,
+		"initialSize": 266,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/reviews.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/reviews.png",
 		"outputPathIsOutsideProject": 0,
@@ -4861,7 +4784,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 606,
+		"initialSize": 468,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/services.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/services.png",
 		"outputPathIsOutsideProject": 0,
@@ -4872,7 +4795,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 914,
+		"initialSize": 1595,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/warr.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/warr.png",
 		"outputPathIsOutsideProject": 0,
@@ -4883,7 +4806,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 500,
+		"initialSize": 388,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/warr_serv.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/warr_serv.png",
 		"outputPathIsOutsideProject": 0,
@@ -4894,7 +4817,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 748,
+		"initialSize": 643,
 		"inputAbbreviatedPath": "\/img\/icons\/menu\/works.png",
 		"outputAbbreviatedPath": "\/img\/icons\/menu\/works.png",
 		"outputPathIsOutsideProject": 0,
@@ -4905,7 +4828,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4585,
+		"initialSize": 2899,
 		"inputAbbreviatedPath": "\/img\/icons\/phone.png",
 		"outputAbbreviatedPath": "\/img\/icons\/phone.png",
 		"outputPathIsOutsideProject": 0,
@@ -4916,7 +4839,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4670,
+		"initialSize": 3528,
 		"inputAbbreviatedPath": "\/img\/icons\/warr_serv.png",
 		"outputAbbreviatedPath": "\/img\/icons\/warr_serv.png",
 		"outputPathIsOutsideProject": 0,
@@ -4927,7 +4850,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5020,
+		"initialSize": 3597,
 		"inputAbbreviatedPath": "\/img\/icons\/wrench.png",
 		"outputAbbreviatedPath": "\/img\/icons\/wrench.png",
 		"outputPathIsOutsideProject": 0,
@@ -4943,46 +4866,46 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/prod\/blinds.jpg": {
+	"\/img\/prod\/accesories.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 44399,
-		"inputAbbreviatedPath": "\/img\/prod\/blinds.jpg",
-		"outputAbbreviatedPath": "\/img\/prod\/blinds.jpg",
+		"initialSize": 50933,
+		"inputAbbreviatedPath": "\/img\/prod\/accesories.jpg",
+		"outputAbbreviatedPath": "\/img\/prod\/accesories.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/prod\/doors.jpg": {
+	"\/img\/prod\/finishing.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 27334,
-		"inputAbbreviatedPath": "\/img\/prod\/doors.jpg",
-		"outputAbbreviatedPath": "\/img\/prod\/doors.jpg",
+		"initialSize": 71784,
+		"inputAbbreviatedPath": "\/img\/prod\/finishing.jpg",
+		"outputAbbreviatedPath": "\/img\/prod\/finishing.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/prod\/jalousie.jpg": {
+	"\/img\/prod\/loggias.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 50648,
-		"inputAbbreviatedPath": "\/img\/prod\/jalousie.jpg",
-		"outputAbbreviatedPath": "\/img\/prod\/jalousie.jpg",
+		"initialSize": 78103,
+		"inputAbbreviatedPath": "\/img\/prod\/loggias.jpg",
+		"outputAbbreviatedPath": "\/img\/prod\/loggias.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/prod\/windows.jpg": {
+	"\/img\/prod\/winpvc.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 26945,
-		"inputAbbreviatedPath": "\/img\/prod\/windows.jpg",
-		"outputAbbreviatedPath": "\/img\/prod\/windows.jpg",
+		"initialSize": 48038,
+		"inputAbbreviatedPath": "\/img\/prod\/winpvc.jpg",
+		"outputAbbreviatedPath": "\/img\/prod\/winpvc.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -4991,7 +4914,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 50892,
+		"initialSize": 49959,
 		"inputAbbreviatedPath": "\/img\/services.jpg",
 		"outputAbbreviatedPath": "\/img\/services.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -5007,7 +4930,7 @@
 		"outputAbbreviatedPath": "\/img\/services\/designplus_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/services\/designplus_3.png": {
 		"fileType": 32768,
@@ -5018,7 +4941,7 @@
 		"outputAbbreviatedPath": "\/img\/services\/designplus_3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/services\/designplus_balk.png": {
 		"fileType": 32768,
@@ -5029,35 +4952,13 @@
 		"outputAbbreviatedPath": "\/img\/services\/designplus_balk.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/services\/for_balcony.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 20911,
-		"inputAbbreviatedPath": "\/img\/services\/for_balcony.png",
-		"outputAbbreviatedPath": "\/img\/services\/for_balcony.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/services\/for_homies.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 25266,
-		"inputAbbreviatedPath": "\/img\/services\/for_homies.png",
-		"outputAbbreviatedPath": "\/img\/services\/for_homies.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
 	"\/img\/services\/glazing.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 15293,
+		"initialSize": 10043,
 		"inputAbbreviatedPath": "\/img\/services\/glazing.png",
 		"outputAbbreviatedPath": "\/img\/services\/glazing.png",
 		"outputPathIsOutsideProject": 0,
@@ -5073,7 +4974,7 @@
 		"outputAbbreviatedPath": "\/img\/services\/standart_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/services\/standart_3.png": {
 		"fileType": 32768,
@@ -5084,18 +4985,18 @@
 		"outputAbbreviatedPath": "\/img\/services\/standart_3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/services\/standart_balk.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1580,
+		"initialSize": 6014,
 		"inputAbbreviatedPath": "\/img\/services\/standart_balk.png",
 		"outputAbbreviatedPath": "\/img\/services\/standart_balk.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/services\/stv_2.png": {
 		"fileType": 32768,
@@ -5106,7 +5007,7 @@
 		"outputAbbreviatedPath": "\/img\/services\/stv_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/services\/stv_3.png": {
 		"fileType": 32768,
@@ -5117,7 +5018,7 @@
 		"outputAbbreviatedPath": "\/img\/services\/stv_3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/services\/stv_balk.png": {
 		"fileType": 32768,
@@ -5128,7 +5029,7 @@
 		"outputAbbreviatedPath": "\/img\/services\/stv_balk.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/services\/titanplus_2.png": {
 		"fileType": 32768,
@@ -5139,7 +5040,7 @@
 		"outputAbbreviatedPath": "\/img\/services\/titanplus_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/services\/titanplus_3.png": {
 		"fileType": 32768,
@@ -5150,7 +5051,7 @@
 		"outputAbbreviatedPath": "\/img\/services\/titanplus_3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/services\/titanplus_balk.png": {
 		"fileType": 32768,
@@ -5161,13 +5062,13 @@
 		"outputAbbreviatedPath": "\/img\/services\/titanplus_balk.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/standart.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7803,
+		"initialSize": 6893,
 		"inputAbbreviatedPath": "\/img\/standart.jpg",
 		"outputAbbreviatedPath": "\/img\/standart.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -5178,75 +5079,9 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7400,
+		"initialSize": 6488,
 		"inputAbbreviatedPath": "\/img\/vita.jpg",
 		"outputAbbreviatedPath": "\/img\/vita.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/why\/find.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5436,
-		"inputAbbreviatedPath": "\/img\/why\/find.png",
-		"outputAbbreviatedPath": "\/img\/why\/find.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/why\/manufacture.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2491,
-		"inputAbbreviatedPath": "\/img\/why\/manufacture.png",
-		"outputAbbreviatedPath": "\/img\/why\/manufacture.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/why\/prices.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4814,
-		"inputAbbreviatedPath": "\/img\/why\/prices.png",
-		"outputAbbreviatedPath": "\/img\/why\/prices.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/why\/security.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2477,
-		"inputAbbreviatedPath": "\/img\/why\/security.png",
-		"outputAbbreviatedPath": "\/img\/why\/security.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/why\/service.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5038,
-		"inputAbbreviatedPath": "\/img\/why\/service.png",
-		"outputAbbreviatedPath": "\/img\/why\/service.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/why\/warranty.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2270,
-		"inputAbbreviatedPath": "\/img\/why\/warranty.png",
-		"outputAbbreviatedPath": "\/img\/why\/warranty.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -5393,7 +5228,7 @@
 		"outputAbbreviatedPath": "\/template_preview.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/template_thumbnail.png": {
 		"fileType": 32768,
@@ -5404,7 +5239,7 @@
 		"outputAbbreviatedPath": "\/template_thumbnail.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		}
 	},
 "hooks": [

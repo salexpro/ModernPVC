@@ -20,12 +20,17 @@ $('.bxservice').bxSlider({
 $('.bxportfolio').bxSlider({
     minSlides: 2,
     maxSlides: 3,
-    slideWidth: 360,
-    slideMargin: 20
+    slideWidth: 365,
+    slideMargin: 35,
+    pager: false,
+    prevText: '',
+    nextText: ''
 });
+
 $('.bxreviews').bxSlider({
     auto: true,
     pause: 10000,
+    controls: false,
     tickerHover: true,
     adaptiveHeight: true
 });
@@ -141,3 +146,5 @@ $(".service_list > li").click(function() {
     $('.service_item:eq(1) .service_item_desc').html(windows[wnd].desc_3);
     $('.service_item:last .service_item_desc').html(windows[wnd].desc_b);
 });
+
+$('.footer_bottom a:last').attr('href','//salex.pro');
