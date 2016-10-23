@@ -16,9 +16,10 @@ $rel   = $item->anchor_rel ? 'rel="' . $item->anchor_rel . '" ' : '';
 
 if ($item->menu_image)
 {
-	$item->params->get('menu_text', 1) ?
-	$linktype = '<img src="' . $item->menu_image . '" alt="' . $item->title . '" /><span>' . $item->title . '</span> ' :
-	$linktype = '<img src="' . $item->menu_image . '" alt="' . $item->title . '" />';
+	$linktype = '<span>'.$item->title.'</span>';
+	// $item->params->get('menu_text', 1) ?
+	// $linktype = '<img src="' . $item->menu_image . '" alt="' . $item->title . '" /><span>' . $item->title . '</span> ' :
+	// $linktype = '<img src="' . $item->menu_image . '" alt="' . $item->title . '" />';
 }
 else
 {

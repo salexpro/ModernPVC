@@ -88,110 +88,183 @@
 }
 
 .leftmenu {
-    @include breakpoint(small down) {
-        margin-bottom: 20px;
-    }
     &_inner {
-        background-color: rgba(235, 235, 235, 0.8);
-        box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.47);
-        p {
-            color: #ff5a00;
-            font-size: 0.9rem;
-            font-weight: 700;
-            margin: 0;
-            padding: 0.3rem 0.68rem;
-            padding-bottom: 0;
-        }
+        
     }
     .menu {
-        padding: .5rem 0;
+        margin-bottom: 40px;
         img {
             //width: 20px;
             margin-right: 5px;
         }
-        li {
-            padding: 0.3rem 0.7rem;
-        }
-        a {
-            display: inline-block;
-            padding: 0;
-        }
-        span {
-            color: $black;
-            line-height: normal;
-            border-bottom: 1px solid;
-        }
-        a:hover span,
-        li.active>a span {
-            color: map-get($foundation-palette, primary);
-            border-color: map-get($foundation-palette, primary);
-        }
-        .nav-child {
-            margin-left: 0;
-            list-style: none;
-            font-size: .9em;
-            li {
+        > li {
+            > a {
+                display: block;
+                padding: 25px 30px;
                 padding-right: 0;
+                font-size: 16px;
+                line-height: 19px;
+                border: 1px solid map-get($foundation-palette, primary);
+                border-bottom: 0;
+                transition: 200ms
+            }
+            &:first-child{
+                > a{
+                    border-radius: 3px 3px 0 0;
+                }
+            }
+            &:last-child{
+                > a{
+                    border-radius: 0 0 3px 3px;
+                    border-bottom: 1px solid map-get($foundation-palette, primary);
+                }
             }
         }
+        
+        >li>a:hover,
+        >li.active>a {
+            color: $white;
+            background-color: map-get($foundation-palette, primary);
+        }
+        .nav-child {
+            background-color: #f6f6f6;
+            padding: 22px 24px;
+            line-height: 17px;
+            list-style: none;
+            margin: 0;
+            li{
+                margin-bottom: 10px;
+                &.deeper, &:last-child{
+                    margin: 0;
+                }
+                &.active{
+                    > a{
+                        color: map-get($foundation-palette, primary);
+                    }
+                }
+                a{
+                    color: #686868;
+                }
+            }
+            .nav-child{
+                padding: 15px;
+            }
+        }        
     }
 }
 
 .page {
     margin-top: 32px;
     margin-bottom: 55px;
-    color: #434343;
-    font-size: 0.8rem;
+    color: $medium-gray;
     h1 {
-        display: table;
-        font-size: 1.2rem;
-        text-transform: uppercase;
-        border-bottom: 2px solid map-get($foundation-palette, primary);
+        line-height: 28px;
+        color: $medium-gray;
+        margin-bottom: 35px;
     }
     h2 {
-        font-size: 0.9rem;
-        font-weight: 700;
+        color: map-get($foundation-palette, primary);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+    [itemprop="articleBody"]>img{
+        margin-bottom: 70px;
+    }
+    .main_dashed{
+        margin-bottom: 70px;
     }
     table {
         text-align: center;
     }
-    .main_dashed {
-        border: 1px dashed map-get($foundation-palette, primary);
-        padding: 15px;
-        margin: 1rem 0;
-    }
     .advantages {
-        font-weight: bold;
+        background-color: $light-gray;
         text-align: center;
-        margin: 1rem 0;
-        .row {
-            margin-bottom: 2rem;
-        }
-        .row:last-child {
-            margin: 0;
+        padding: 0 45px;
+        padding-top: 55px;
+        padding-bottom: 35px;
+        font-size: 16px;
+        line-height: 19px;
+        align-items: baseline;
+        margin: 44px 0;
+        color: #4a4a4a;
+    }
+    .systems{
+        text-align: center;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 30px;
+        color: #828282;
+        >.row{
+            margin-bottom: 50px;
         }
         img {
             display: block;
             margin: auto;
-            margin-bottom: 1rem;
+            margin-bottom: 30px;
         }
         a {
-            text-decoration: underline;
+            display: block;
+            color: #828282;
+        }
+        &.services{
+            padding: 0 120px;
+            margin-top: 70px;
+            a{
+                font-size: 14px;
+            }
         }
     }
-    .checklist {
-        line-height: 1.5rem;
-        li {
-            list-style-image: url(/templates/modernpvc/img/icons/check.png);
+    .review{
+        background-color: $light-gray;
+        border-radius: 3px;
+        padding: 0 70px;
+        padding-top: 55px;
+        padding-bottom: 40px;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        color: #9b9b9b;
+        &_header{
+            font-size: 18px;
+            line-height: 21px;
+            color: map-get($foundation-palette, primary);
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+        p{
+            position: relative;
+            margin: 0;
+            &::before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -30px;
+                display: block;
+                width: 22px;
+                height: 22px;
+                background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAACeUlEQVRIS7WVz0tUURiGn3dGkxCTVmb/gGCUWoGRJUW0KggrVIiMae6AUGRQQrSpNkblwhYF4YwLIzL7sQhqlRgtijQ0CIqIWhRtWlRUWhozX9zjdbqKzszGuzt89zznu+95v/eKJXq0RFwKAluKJjIcBCYpp13N/JptyFJUYXRhiCLOKMYrv5YXbH1Uk2EEo5QIRxXnShbaTynTrlYNDCpBy2wtJ9hSlGGMYlQhHspjV1g6SzKA0YL4xHJqdIBvhYGT3MHYB3yhhLVq40u22yQdGD1ABtihBI/Dhy7asSU5iXHJvSx2y+NBCNqAOVAR4oI8Ts03wYJg62Ub4hFGFHFVHkey0F4qgHGgEhijjk3ayN+8YEuxGmMMowLxhhVsUDO//Y02TBHvGcJodA6JsF5x3i5k2Tkd2wuKGXefuBkxTZR6xXgZslY3GU4E8rTL49piczAXnOIyGY4FGzvl0Z2F9rGfNLeD2n157Mk1XFmw3WAlk+7W/Qv5TpRKxfgT0tbXtTYA18tjpCCw03CuE7rl0TnPCcNAMfCUchrVTLogKQL4jHeFATvlMbSAdyHCWcU5Vzg4PG3wGbFOHl9D8JsYrYg0YqviPMvritBF/c8HcU+emz73mJ8PUzwH1iA+IGoV52deH4cuyw+UAbeO4ClOKmQ7P9H8DCkD+pXgUMHgQO8ejA7EBFHqFONd6OC9wN1g3aoEt8Lw3Ok2M2nDGFuAUepoCI+v9XIR6HT2XEaN2vg4C8+fx9epZMqN+CrEeXmcznY9SJQfLlP8bHlCnO2SS7v8Qe8k6aOeDE0YaUroUhsTIUkqiHDc/UEi9OswrwsG55qwxWr/AKTx2Re6cmC+AAAAAElFTkSuQmCC);
+
+            }
+            &::after{
+                content: '';
+                position: absolute;
+                bottom: 0;
+                right: -30px;
+                display: block;
+                width: 22px;
+                height: 22px;
+                background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAACfElEQVRIS7XVzWucVRTH8c+ZYKv1BXWRjShIEVEQTLARXUhCu1Jw4UuJiF1kZhDswi6qoht1I0IUrCgIecZiRbTBWgRdiVjqCxbUWsVC/4G+rKSWItrMHJknk+lMMjNRoWf3cO/93vOc8zu/Gy5RxCXi6oJzrzsseVlI4YWoOrFyaS66ylnvYJOK96Pq4HoJ9WWcC/Zju3DcBlOxw/kuvGGnlreE8yqmYs7xUfB+8Aeu86dj0o3C/qiZ7T2chc+l+4UTwpaoOjcMvqbGuWAaX6Ii7IqaPd2s9xn3l18xLhyImkf+Nbi9MQuvSs9hSZiOmm+78MID0mfld3gmal4bBB+oivzBZY76HpM4hYmoO9MDf1t6SmhK26Lu0Gr4ULllw61afiqVEA7bbGvMWCr/aNEV/vCjdJtwRpiMqpO98JE6zsKTspRZu+KvR9XubtZ73anpiLQB35kwHXe5sLK+7oBk4VPpwfLAmEdjzsc9JdktzXcufjOqnv4v4CnpSOfAz1E30ZP15ZpOSdeWjd5kPB73+3JfR0QuGnPWYdyLC8LMKoXMy055VilkNLjhRS0vdaTVr+nCVnxRGsAATY9SxT3S19KY8FHUPNZT2+ulX3DDsCkcrOOGq7Ucw834zUZ39/lG4YD00CjfGAxe8B52COc6nnDR6RqqWopO9rNRL41rTaz1isKs9GFn58NR90mPCm7RdFS6UtgTNbuG9b7f3fa5yd+lu7XlMx91z3ahy2Pe9owtwjc2m1mZxJEZZ6po+Eq6TzjkGttiu2ZPw16RnhdO22gynig9ZGhcfEHedbtWWdfU8kaf6Sy/IG3omIqDMdcdmPXBo27/P2v/ABbh2RekPPg2AAAAAElFTkSuQmCC);
+            }
         }
     }
 }
 
 .head {
     height: 220px;
-    @include breakpoint(small down) {
-        height: auto;
-    }
     > .row{
         height: 100%;
     }
@@ -213,10 +286,6 @@
         }
         a {
             color: $medium-gray;
-        }
-        i {
-            vertical-align: middle;
-            margin-right: 10px;
         }
     }
 }
