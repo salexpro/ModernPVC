@@ -1,40 +1,42 @@
-$('.bxslider').bxSlider({
-    auto: true,
-    pause: 10000,
-    mode: 'fade',
-    pager: false,
-    controls: false,
-    adaptiveHeight: true
-});
+if(ismain){
+    $('.bxslider').bxSlider({
+        auto: true,
+        pause: 10000,
+        mode: 'fade',
+        pager: false,
+        controls: false,
+        adaptiveHeight: true
+    });
 
-var bxservice = $('.bxservice').bxSlider({
-    minSlides: 3,
-    maxSlides: 3,
-    slideWidth: 370,
-    slideMargin: 30,
-    hideControlOnEnd: true,
-    infiniteLoop: false,
-    pager: false
-});
+    var bxservice = $('.bxservice').bxSlider({
+        minSlides: 3,
+        maxSlides: 3,
+        slideWidth: 370,
+        slideMargin: 30,
+        hideControlOnEnd: true,
+        infiniteLoop: false,
+        pager: false
+    });
 
-var bxportfolio = $('.bxportfolio').bxSlider({
-    minSlides: 3,
-    maxSlides: 3,
-    slideWidth: 365,
-    slideMargin: 35,
-    pager: false,
-    prevText: '',
-    nextText: ''
-});
+    var bxportfolio = $('.bxportfolio').bxSlider({
+        minSlides: 3,
+        maxSlides: 3,
+        slideWidth: 365,
+        slideMargin: 35,
+        pager: false,
+        prevText: '',
+        nextText: ''
+    });
 
-$('.bxreviews').bxSlider({
-    auto: true,
-    pause: 10000,
-    controls: false,
-    tickerHover: true,
-    adaptiveHeight: true,
-    slideMargin: 5
-});
+    $('.bxreviews').bxSlider({
+        auto: true,
+        pause: 10000,
+        controls: false,
+        tickerHover: true,
+        adaptiveHeight: true,
+        slideMargin: 5
+    });
+}
 
 $('.head_hamb').click(function(){
     $('html, body').animate({scrollTop: 0}, 'fast');
@@ -260,14 +262,16 @@ function responsive(newsize, isfirst){
         $('.nav_share_tooltip').text('');
     }
 
-    if(!isfirst){
-        rebuildsliders(newsize);
-        console.info('newsize: '+newsize);
-    } else if(newsize!='large'&&newsize!='xlarge'&&newsize!='xxlarge'){
-        setTimeout(function(){
-            rebuildsliders(newsize)
-        },'2000');
-        console.info('first time: '+newsize);
+    if(ismain){
+        if(!isfirst){
+            rebuildsliders(newsize);
+            console.info('newsize: '+newsize);
+        } else if(newsize!='large'&&newsize!='xlarge'&&newsize!='xxlarge'){
+            setTimeout(function(){
+                rebuildsliders(newsize)
+            },'2000');
+            console.info('first time: '+newsize);
+        }
     }
 }
 

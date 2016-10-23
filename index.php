@@ -36,7 +36,7 @@ foreach($doc->_scripts as $key => $script){
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width">
-    <meta name="theme-color" content="#fff"/>
+    <meta name="theme-color" content="#f2f2f2"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;subset=cyrillic" rel="stylesheet">
     <jdoc:include type="head" />
     <?php echo '<script>var yaParams = {ip_adress: "'. $_SERVER['REMOTE_ADDR'] .'" };</script>'; ?>
@@ -66,7 +66,7 @@ foreach($doc->_scripts as $key => $script){
             <jdoc:include type="modules" name="reviews" />
         <?}else{?>
             <section class="row page">
-                <aside class="small-12 medium-5 large-3 columns leftmenu">
+                <aside class="small-12 medium-4 large-3 column leftmenu">
                     <div class="leftmenu_inner">
                         <jdoc:include type="modules" name="sidebar" style="sidebar" />
                     </div>
@@ -86,7 +86,10 @@ foreach($doc->_scripts as $key => $script){
     <?}?>
     <?if($is_homepage){?>
     <script src="<?echo $template_url?>/bower_components/bxslider-4/dist/jquery.bxslider.min.js"></script>
-    <script src="<?echo $template_url?>/js/app.js"></script>
+    <script>var ismain = true</script>   
+    <?} else {?>
+    <script>var ismain = false</script>   
     <?}?>
+    <script src="<?echo $template_url?>/js/app.js"></script>
 </body>
 </html>
