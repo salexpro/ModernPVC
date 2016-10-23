@@ -44,11 +44,12 @@ foreach($doc->_scripts as $key => $script){
 <body>
     <main class="wrap">
         <jdoc:include type="modules" name="header" />
-        <nav class="nav">
+        <nav class="nav" data-closable>
             <div class="row align-middle align-justify">
                 <jdoc:include type="modules" name="menu" />
                 <jdoc:include type="modules" name="share" />
             </div>
+            <button class="show-for-small-only close-button" aria-label="Закрыть окно" type="button" data-close><span aria-hidden="true">&times;</span></button>
         </nav>
         <?if($is_homepage){?>
             <section class="slider">
@@ -85,8 +86,6 @@ foreach($doc->_scripts as $key => $script){
     <?}?>
     <?if($is_homepage){?>
     <script src="<?echo $template_url?>/bower_components/bxslider-4/dist/jquery.bxslider.min.js"></script>
-    <script src="<?echo $template_url?>/js/tooltip.js"></script>
-    <script src="<?echo $template_url?>/js/popover.js"></script>
     <script src="<?echo $template_url?>/js/app.js"></script>
     <?}?>
 </body>

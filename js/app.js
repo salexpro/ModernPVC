@@ -7,7 +7,7 @@ $('.bxslider').bxSlider({
     adaptiveHeight: true
 });
 
-$('.bxservice').bxSlider({
+var bxservice = $('.bxservice').bxSlider({
     minSlides: 3,
     maxSlides: 3,
     slideWidth: 370,
@@ -17,8 +17,8 @@ $('.bxservice').bxSlider({
     pager: false
 });
 
-$('.bxportfolio').bxSlider({
-    minSlides: 2,
+var bxportfolio = $('.bxportfolio').bxSlider({
+    minSlides: 3,
     maxSlides: 3,
     slideWidth: 365,
     slideMargin: 35,
@@ -32,8 +32,26 @@ $('.bxreviews').bxSlider({
     pause: 10000,
     controls: false,
     tickerHover: true,
-    adaptiveHeight: true
+    adaptiveHeight: true,
+    slideMargin: 5
 });
+
+$('.head_hamb').click(function(){
+    $('html, body').animate({scrollTop: 0}, 'fast');
+    $('body').addClass('noscroll');
+    $('.nav').fadeIn();
+});
+
+$('.nav .close-button').click(function(){
+    $('body').removeClass('noscroll');
+});
+
+$('.slider_call_button').click(function(e){
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: $('.call').offset().top - 30
+    }, 500);
+})
 
 
 var windows = {
@@ -148,3 +166,113 @@ $(".service_list > li").click(function() {
 });
 
 $('.footer_bottom a:last').attr('href','//salex.pro');
+
+// Адаптивность
+function rebuildsliders(size){
+    bxservice.destroySlider();
+    bxportfolio.destroySlider();
+
+    if(size=='large'||size=='xlarge'||size=='xxlarge'){
+        bxservice = $('.bxservice').bxSlider({
+            minSlides: 3,
+            maxSlides: 3,
+            slideWidth: 370,
+            slideMargin: 30,
+            hideControlOnEnd: true,
+            infiniteLoop: false,
+            pager: false
+        });
+        bxportfolio = $('.bxportfolio').bxSlider({
+            minSlides: 3,
+            maxSlides: 3,
+            slideWidth: 365,
+            slideMargin: 35,
+            pager: false,
+            prevText: '',
+            nextText: ''
+        });
+    }
+
+    if(size=='medium'){  
+        bxservice = $('.bxservice').bxSlider({
+            minSlides: 2,
+            maxSlides: 2,
+            slideWidth: 370,
+            slideMargin: 30,
+            hideControlOnEnd: true,
+            infiniteLoop: false,
+            pager: false,
+            prevText:'',
+            nextText:''
+        });
+        
+        bxportfolio = $('.bxportfolio').bxSlider({
+            minSlides: 2,
+            maxSlides: 2,
+            slideWidth: 320,
+            slideMargin: 15,
+            pager: false,
+            prevText: '',
+            nextText: ''
+        });
+    }
+
+    if(size=='small'){  
+        bxservice = $('.bxservice').bxSlider({
+            minSlides: 1,
+            maxSlides: 1,
+            slideWidth: 370,
+            slideMargin: 20,
+            hideControlOnEnd: true,
+            infiniteLoop: false,
+            pager: false,
+            prevText:'',
+            nextText:''
+        });
+
+        bxportfolio = $('.bxportfolio').bxSlider({
+            minSlides: 1,
+            maxSlides: 1,
+            slideWidth: 320,
+            slideMargin: 15,
+            pager: false,
+            prevText: '',
+            nextText: ''
+        });
+    }
+}
+
+function responsive(newsize, isfirst){
+    if(newsize=='large'||newsize=='xlarge'||newsize=='xxlarge'){
+        $('.nav_share_tooltip').text('');
+    }
+
+    if(newsize=='medium'){
+        $('.nav_share>a').each(function(){
+            $('.nav_share_tooltip').append(this.outerHTML);
+        });
+        $('.nav_share>div').hover(function(){
+            $('.nav_share_tooltip').toggleClass('active');
+        });
+    }
+
+    if(newsize=='small'){
+        $('.nav_share_tooltip').text('');
+    }
+
+    if(!isfirst){
+        rebuildsliders(newsize);
+        console.info('newsize: '+newsize);
+    } else if(newsize!='large'&&newsize!='xlarge'&&newsize!='xxlarge'){
+        setTimeout(function(){
+            rebuildsliders(newsize)
+        },'2000');
+        console.info('first time: '+newsize);
+    }
+}
+
+$(window).on('changed.zf.mediaquery', function(event, newSize, oldSize) {
+    responsive(newSize, 0);
+});
+
+responsive(Foundation.MediaQuery.current, 1);

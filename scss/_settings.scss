@@ -93,7 +93,7 @@ $breakpoint-classes: (small medium large);
 $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-gutter: (
-  small: 20px,
+  small: 30px,
   medium: 30px,
 );
 $grid-column-align-edge: false;
@@ -109,7 +109,7 @@ $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
   small: (
     'h1': 24,
-    'h2': 20,
+    'h2': 18,
     'h3': 19,
     'h4': 18,
     'h5': 17,
@@ -275,11 +275,11 @@ $callout-link-tint: 30%;
 
 $closebutton-position: right top;
 $closebutton-offset-horizontal: 1rem;
-$closebutton-offset-vertical: 0.5rem;
-$closebutton-size: 2em;
+$closebutton-offset-vertical: 8px;
+$closebutton-size: 50px;
 $closebutton-lineheight: 1;
-$closebutton-color: $dark-gray;
-$closebutton-color-hover: $black;
+$closebutton-color: map-get($foundation-palette, primary);
+$closebutton-color-hover: map-get($foundation-palette, primary);
 
 // 15. Drilldown
 // -------------
