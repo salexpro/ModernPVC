@@ -33,6 +33,12 @@
         line-height: 16px;
         padding: 8px;
     }
+    &.gray{
+        background-color: #bab8b8;
+        &:hover, &:focus{
+            background-color: darken(#bab8b8, 15);
+        }
+    }
 }
 
 .progress{
@@ -401,7 +407,7 @@
 }
 
 .head {
-    height: 220px;
+    height: 180px;
     @include breakpoint(medium down) {
         height: 160px;
         padding: 0 50px;
@@ -590,6 +596,19 @@
 
 .slider{
     position: relative;
+    .bx-wrapper{
+        overflow: hidden;
+        .bx-prev{
+            left: 20px;
+        }
+        .bx-next{
+            right: 20px;
+        }
+    }
+    // img{
+    //     height: 100%;
+    //     object-fit: cover;
+    // }
     &_call{
         position: absolute;
         bottom: 0;
@@ -1164,6 +1183,16 @@
     }
 }
 
+@include breakpoint(large up) {
+    .bx-viewport{
+        transition: 500ms
+    }
+    
+    .bxreviews{
+        display: flex;
+    }
+}
+
 .reviews {
     padding-bottom: 95px;
     @include breakpoint(medium down) {
@@ -1249,54 +1278,71 @@
                     margin-bottom: 15px;
                 }
             }
-            p{
-                position: relative;
-                color: #494b4c;
-                font-size: 16px;
-                font-weight: 300;
-                line-height: 27px;
-                margin: 0;
-                @include breakpoint(medium down) {
-                    font-size: 20px;
-                }
+        }
+        &_text{
+            position: relative;
+            color: #494b4c;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 27px;
+            margin: 0;
+            @include breakpoint(medium down) {
+                font-size: 20px;
+            }
+            @include breakpoint(small down) {
+                font-size: 12px;
+                line-height: 1.7;
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -30px;
+                display: block;
+                width: 22px;
+                height: 22px;
+                background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAACeUlEQVRIS7WVz0tUURiGn3dGkxCTVmb/gGCUWoGRJUW0KggrVIiMae6AUGRQQrSpNkblwhYF4YwLIzL7sQhqlRgtijQ0CIqIWhRtWlRUWhozX9zjdbqKzszGuzt89zznu+95v/eKJXq0RFwKAluKJjIcBCYpp13N/JptyFJUYXRhiCLOKMYrv5YXbH1Uk2EEo5QIRxXnShbaTynTrlYNDCpBy2wtJ9hSlGGMYlQhHspjV1g6SzKA0YL4xHJqdIBvhYGT3MHYB3yhhLVq40u22yQdGD1ABtihBI/Dhy7asSU5iXHJvSx2y+NBCNqAOVAR4oI8Ts03wYJg62Ub4hFGFHFVHkey0F4qgHGgEhijjk3ayN+8YEuxGmMMowLxhhVsUDO//Y02TBHvGcJodA6JsF5x3i5k2Tkd2wuKGXefuBkxTZR6xXgZslY3GU4E8rTL49piczAXnOIyGY4FGzvl0Z2F9rGfNLeD2n157Mk1XFmw3WAlk+7W/Qv5TpRKxfgT0tbXtTYA18tjpCCw03CuE7rl0TnPCcNAMfCUchrVTLogKQL4jHeFATvlMbSAdyHCWcU5Vzg4PG3wGbFOHl9D8JsYrYg0YqviPMvritBF/c8HcU+emz73mJ8PUzwH1iA+IGoV52deH4cuyw+UAbeO4ClOKmQ7P9H8DCkD+pXgUMHgQO8ejA7EBFHqFONd6OC9wN1g3aoEt8Lw3Ok2M2nDGFuAUepoCI+v9XIR6HT2XEaN2vg4C8+fx9epZMqN+CrEeXmcznY9SJQfLlP8bHlCnO2SS7v8Qe8k6aOeDE0YaUroUhsTIUkqiHDc/UEi9OswrwsG55qwxWr/AKTx2Re6cmC+AAAAAElFTkSuQmCC);
                 @include breakpoint(small down) {
-                    font-size: 12px;
-                    line-height: 1.7;
+                    width: 17px;
+                    height: 17px;
+                    left: -19px;
+                    background-size: contain;
                 }
-                &::before{
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: -30px;
-                    display: block;
-                    width: 22px;
-                    height: 22px;
-                    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAACeUlEQVRIS7WVz0tUURiGn3dGkxCTVmb/gGCUWoGRJUW0KggrVIiMae6AUGRQQrSpNkblwhYF4YwLIzL7sQhqlRgtijQ0CIqIWhRtWlRUWhozX9zjdbqKzszGuzt89zznu+95v/eKJXq0RFwKAluKJjIcBCYpp13N/JptyFJUYXRhiCLOKMYrv5YXbH1Uk2EEo5QIRxXnShbaTynTrlYNDCpBy2wtJ9hSlGGMYlQhHspjV1g6SzKA0YL4xHJqdIBvhYGT3MHYB3yhhLVq40u22yQdGD1ABtihBI/Dhy7asSU5iXHJvSx2y+NBCNqAOVAR4oI8Ts03wYJg62Ub4hFGFHFVHkey0F4qgHGgEhijjk3ayN+8YEuxGmMMowLxhhVsUDO//Y02TBHvGcJodA6JsF5x3i5k2Tkd2wuKGXefuBkxTZR6xXgZslY3GU4E8rTL49piczAXnOIyGY4FGzvl0Z2F9rGfNLeD2n157Mk1XFmw3WAlk+7W/Qv5TpRKxfgT0tbXtTYA18tjpCCw03CuE7rl0TnPCcNAMfCUchrVTLogKQL4jHeFATvlMbSAdyHCWcU5Vzg4PG3wGbFOHl9D8JsYrYg0YqviPMvritBF/c8HcU+emz73mJ8PUzwH1iA+IGoV52deH4cuyw+UAbeO4ClOKmQ7P9H8DCkD+pXgUMHgQO8ejA7EBFHqFONd6OC9wN1g3aoEt8Lw3Ok2M2nDGFuAUepoCI+v9XIR6HT2XEaN2vg4C8+fx9epZMqN+CrEeXmcznY9SJQfLlP8bHlCnO2SS7v8Qe8k6aOeDE0YaUroUhsTIUkqiHDc/UEi9OswrwsG55qwxWr/AKTx2Re6cmC+AAAAAElFTkSuQmCC);
-                    @include breakpoint(small down) {
-                        width: 17px;
-                        height: 17px;
-                        left: -19px;
-                        background-size: contain;
-                    }
 
-                }
-                &::after{
-                    content: '';
-                    position: absolute;
-                    bottom: 0;
-                    right: -30px;
-                    display: block;
-                    width: 22px;
-                    height: 22px;
-                    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAACfElEQVRIS7XVzWucVRTH8c+ZYKv1BXWRjShIEVEQTLARXUhCu1Jw4UuJiF1kZhDswi6qoht1I0IUrCgIecZiRbTBWgRdiVjqCxbUWsVC/4G+rKSWItrMHJknk+lMMjNRoWf3cO/93vOc8zu/Gy5RxCXi6oJzrzsseVlI4YWoOrFyaS66ylnvYJOK96Pq4HoJ9WWcC/Zju3DcBlOxw/kuvGGnlreE8yqmYs7xUfB+8Aeu86dj0o3C/qiZ7T2chc+l+4UTwpaoOjcMvqbGuWAaX6Ii7IqaPd2s9xn3l18xLhyImkf+Nbi9MQuvSs9hSZiOmm+78MID0mfld3gmal4bBB+oivzBZY76HpM4hYmoO9MDf1t6SmhK26Lu0Gr4ULllw61afiqVEA7bbGvMWCr/aNEV/vCjdJtwRpiMqpO98JE6zsKTspRZu+KvR9XubtZ73anpiLQB35kwHXe5sLK+7oBk4VPpwfLAmEdjzsc9JdktzXcufjOqnv4v4CnpSOfAz1E30ZP15ZpOSdeWjd5kPB73+3JfR0QuGnPWYdyLC8LMKoXMy055VilkNLjhRS0vdaTVr+nCVnxRGsAATY9SxT3S19KY8FHUPNZT2+ulX3DDsCkcrOOGq7Ucw834zUZ39/lG4YD00CjfGAxe8B52COc6nnDR6RqqWopO9rNRL41rTaz1isKs9GFn58NR90mPCm7RdFS6UtgTNbuG9b7f3fa5yd+lu7XlMx91z3ahy2Pe9owtwjc2m1mZxJEZZ6po+Eq6TzjkGttiu2ZPw16RnhdO22gynig9ZGhcfEHedbtWWdfU8kaf6Sy/IG3omIqDMdcdmPXBo27/P2v/ABbh2RekPPg2AAAAAElFTkSuQmCC);
-                    @include breakpoint(small down) {
-                        width: 17px;
-                        height: 17px;
-                        right: -19px;
-                        background-size: contain;
-                    }
+            }
+            &::after{
+                content: '';
+                position: absolute;
+                bottom: 0;
+                right: -30px;
+                display: block;
+                width: 22px;
+                height: 22px;
+                background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAACfElEQVRIS7XVzWucVRTH8c+ZYKv1BXWRjShIEVEQTLARXUhCu1Jw4UuJiF1kZhDswi6qoht1I0IUrCgIecZiRbTBWgRdiVjqCxbUWsVC/4G+rKSWItrMHJknk+lMMjNRoWf3cO/93vOc8zu/Gy5RxCXi6oJzrzsseVlI4YWoOrFyaS66ylnvYJOK96Pq4HoJ9WWcC/Zju3DcBlOxw/kuvGGnlreE8yqmYs7xUfB+8Aeu86dj0o3C/qiZ7T2chc+l+4UTwpaoOjcMvqbGuWAaX6Ii7IqaPd2s9xn3l18xLhyImkf+Nbi9MQuvSs9hSZiOmm+78MID0mfld3gmal4bBB+oivzBZY76HpM4hYmoO9MDf1t6SmhK26Lu0Gr4ULllw61afiqVEA7bbGvMWCr/aNEV/vCjdJtwRpiMqpO98JE6zsKTspRZu+KvR9XubtZ73anpiLQB35kwHXe5sLK+7oBk4VPpwfLAmEdjzsc9JdktzXcufjOqnv4v4CnpSOfAz1E30ZP15ZpOSdeWjd5kPB73+3JfR0QuGnPWYdyLC8LMKoXMy055VilkNLjhRS0vdaTVr+nCVnxRGsAATY9SxT3S19KY8FHUPNZT2+ulX3DDsCkcrOOGq7Ucw834zUZ39/lG4YD00CjfGAxe8B52COc6nnDR6RqqWopO9rNRL41rTaz1isKs9GFn58NR90mPCm7RdFS6UtgTNbuG9b7f3fa5yd+lu7XlMx91z3ahy2Pe9owtwjc2m1mZxJEZZ6po+Eq6TzjkGttiu2ZPw16RnhdO22gynig9ZGhcfEHedbtWWdfU8kaf6Sy/IG3omIqDMdcdmPXBo27/P2v/ABbh2RekPPg2AAAAAElFTkSuQmCC);
+                @include breakpoint(small down) {
+                    width: 17px;
+                    height: 17px;
+                    right: -19px;
+                    background-size: contain;
                 }
             }
+            &_inner{
+                &.opened{
+                    max-height: 100%;
+                }
+                @include breakpoint(large up) {
+                    max-height: 110px;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+    .button{
+        margin: 0;
+        margin-top: 20px;
+        padding: 12px 15px;
+        @include breakpoint(medium down) {
+            display: none;
         }
     }
 }

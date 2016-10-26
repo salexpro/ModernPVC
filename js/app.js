@@ -3,9 +3,7 @@ if(ismain){
         auto: true,
         pause: 10000,
         mode: 'fade',
-        pager: false,
-        controls: false,
-        adaptiveHeight: true
+        pager: false
     });
 
     var bxservice = $('.bxservice').bxSlider({
@@ -28,7 +26,7 @@ if(ismain){
         nextText: ''
     });
 
-    $('.bxreviews').bxSlider({
+    var bxreviews = $('.bxreviews').bxSlider({
         auto: true,
         pause: 10000,
         controls: false,
@@ -53,8 +51,13 @@ $('.slider_call_button').click(function(e){
     $('html, body').animate({
         scrollTop: $('.call').offset().top - 30
     }, 500);
-})
+});
 
+$('.reviews_item_text button').click(function(){
+    $(this).prev().toggleClass('opened');
+    $(this).text($(this).text() == 'Читать весь отзыв' ? 'Скрыть отзыв' : 'Читать весь отзыв');
+    bxreviews.redrawSlider();
+})
 
 var windows = {
     VEKAWHS60: {
