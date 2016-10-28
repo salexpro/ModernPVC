@@ -12,6 +12,12 @@
     }
 }
 
+a{
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
 .noscroll{
     overflow: hidden;
 }
@@ -140,6 +146,7 @@
                 border: 1px solid map-get($foundation-palette, primary);
                 border-bottom: 0;
                 transition: 200ms;
+                text-decoration: none;
                 @include breakpoint(medium down) {
                     font-size: 14px;
                     padding: 20px 25px;
@@ -407,7 +414,7 @@
 }
 
 .head {
-    height: 180px;
+    height: 140px;
     @include breakpoint(medium down) {
         height: 160px;
         padding: 0 50px;
@@ -515,6 +522,7 @@
             padding: 0 4px;
             transition: 200ms;
             border-bottom: 3px solid transparent;
+            text-decoration: none;
             @include breakpoint(small down) {
                 font-size: 20px;
                 line-height: 36px;
@@ -526,38 +534,45 @@
     }
     &_share{
         text-align: right;
+        display: flex;
+        justify-content: flex-end;
         @include breakpoint(small down) {
             text-align: center;
+            flex-direction: column;
+            align-items: center;
         }
         >div{
             position: relative;
-            display: inline-block;
             @include breakpoint(medium down) {
                 color: map-get($foundation-palette, primary);
+                &:hover .nav_share_tooltip{
+                    opacity: 1;
+                }
             }
             @include breakpoint(small down) {
-                display: block;
                 font-size: 18px;
                 color: $dark-gray;
                 margin-bottom: 10px;
             }
         }
-        a{
-            font-size: 20px;
-            color: $white;
-            margin-left: 20px;
+        > .ya-share2{
             @include breakpoint(medium down) {
                 display: none;
             }
             @include breakpoint(small down) {
-                display: inline-block;
-                &:first-of-type{
-                    margin: 0;
+                display: block;
+                .ya-share2__item_service_vkontakte{
+                    margin: 0 !important;
                 }
             }
         }
+        li{
+            margin: 0 !important;
+            margin-left: 20px !important;
+        }
         &_tooltip{
             display: flex;
+            width: 197px;
             opacity: 0;
             position: absolute;
             bottom: -60px;
@@ -565,17 +580,14 @@
             left: 45%;
             align-items: center;
             height: 50px;
-            padding: 0 25px;
+            padding: 0 20px;
             background-color: map-get($foundation-palette, secondary);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             z-index: 999;
             transition: 500ms;
             &:empty{
                 display: none;
-            }
-            &.active{
-                opacity: 1;
-            }
+            } 
             &::before{
                 content: '';
                 position: absolute;
@@ -584,11 +596,8 @@
                 border: 10px solid transparent; border-bottom: 10px solid map-get($foundation-palette, secondary);
                 border-top: 0;
             }
-            a{
-                display: inline-block;
-                &:first-child{
-                    margin: 0;
-                }
+            .ya-share2__item_service_vkontakte{
+                margin: 0 !important;
             }
         }
     }
@@ -596,8 +605,10 @@
 
 .slider{
     position: relative;
+
     .bx-wrapper{
         overflow: hidden;
+        max-height: 75vh;
         .bx-prev{
             left: 20px;
         }
@@ -605,10 +616,6 @@
             right: 20px;
         }
     }
-    // img{
-    //     height: 100%;
-    //     object-fit: cover;
-    // }
     &_call{
         position: absolute;
         bottom: 0;

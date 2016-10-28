@@ -6,27 +6,7 @@ if(ismain){
         pager: false
     });
 
-    var bxservice = $('.bxservice').bxSlider({
-        minSlides: 3,
-        maxSlides: 3,
-        slideWidth: 370,
-        slideMargin: 30,
-        hideControlOnEnd: true,
-        infiniteLoop: false,
-        pager: false
-    });
-
-    var bxportfolio = $('.bxportfolio').bxSlider({
-        minSlides: 3,
-        maxSlides: 3,
-        slideWidth: 365,
-        slideMargin: 35,
-        pager: false,
-        prevText: '',
-        nextText: ''
-    });
-
-    var bxreviews = $('.bxreviews').bxSlider({
+    bxreviews = $('.bxreviews').bxSlider({
         auto: true,
         pause: 10000,
         controls: false,
@@ -170,110 +150,90 @@ $(".service_list > li").click(function() {
     $('.service_item:last .service_item_desc').html(windows[wnd].desc_b);
 });
 
-$('.footer_bottom a:last').attr('href','//salex.pro');
-
 // Адаптивность
-function rebuildsliders(size){
-    bxservice.destroySlider();
-    bxportfolio.destroySlider();
+function responsive(size, isfirst){
+
+    if(ismain&&!isfirst){
+        bxservice.destroySlider();
+        bxportfolio.destroySlider();
+    }
 
     if(size=='large'||size=='xlarge'||size=='xxlarge'){
-        bxservice = $('.bxservice').bxSlider({
-            minSlides: 3,
-            maxSlides: 3,
-            slideWidth: 370,
-            slideMargin: 30,
-            hideControlOnEnd: true,
-            infiniteLoop: false,
-            pager: false
-        });
-        bxportfolio = $('.bxportfolio').bxSlider({
-            minSlides: 3,
-            maxSlides: 3,
-            slideWidth: 365,
-            slideMargin: 35,
-            pager: false,
-            prevText: '',
-            nextText: ''
-        });
+        $('.nav_share_tooltip').html('');
+        if(ismain){
+            bxservice = $('.bxservice').bxSlider({
+                minSlides: 3,
+                maxSlides: 3,
+                slideWidth: 370,
+                slideMargin: 30,
+                hideControlOnEnd: true,
+                infiniteLoop: false,
+                pager: false
+            });
+
+            bxportfolio = $('.bxportfolio').bxSlider({
+                minSlides: 3,
+                maxSlides: 3,
+                slideWidth: 365,
+                slideMargin: 35,
+                pager: false,
+                prevText: '',
+                nextText: ''
+            });
+        }
     }
 
-    if(size=='medium'){  
-        bxservice = $('.bxservice').bxSlider({
-            minSlides: 2,
-            maxSlides: 2,
-            slideWidth: 370,
-            slideMargin: 30,
-            hideControlOnEnd: true,
-            infiniteLoop: false,
-            pager: false,
-            prevText:'',
-            nextText:''
-        });
-        
-        bxportfolio = $('.bxportfolio').bxSlider({
-            minSlides: 2,
-            maxSlides: 2,
-            slideWidth: 320,
-            slideMargin: 15,
-            pager: false,
-            prevText: '',
-            nextText: ''
-        });
+    if(size=='medium'){
+        $('.nav_share_tooltip').append($('.ya-share2')[0].outerHTML);
+        if(ismain){
+            bxservice = $('.bxservice').bxSlider({
+                minSlides: 2,
+                maxSlides: 2,
+                slideWidth: 370,
+                slideMargin: 30,
+                hideControlOnEnd: true,
+                infiniteLoop: false,
+                pager: false,
+                prevText:'',
+                nextText:''
+            });
+            
+            bxportfolio = $('.bxportfolio').bxSlider({
+                minSlides: 2,
+                maxSlides: 2,
+                slideWidth: 320,
+                slideMargin: 15,
+                pager: false,
+                prevText: '',
+                nextText: ''
+            });
+        }
     }
 
-    if(size=='small'){  
-        bxservice = $('.bxservice').bxSlider({
-            minSlides: 1,
-            maxSlides: 1,
-            slideWidth: 370,
-            slideMargin: 20,
-            hideControlOnEnd: true,
-            infiniteLoop: false,
-            pager: false,
-            prevText:'',
-            nextText:''
-        });
+    if(size=='small'){
+        $('.nav_share_tooltip').html('');
+        if(ismain){
+            bxservice = $('.bxservice').bxSlider({
+                minSlides: 1,
+                maxSlides: 1,
+                slideWidth: 370,
+                slideMargin: 20,
+                hideControlOnEnd: true,
+                infiniteLoop: false,
+                pager: false,
+                prevText:'',
+                nextText:''
+            });
 
-        bxportfolio = $('.bxportfolio').bxSlider({
-            minSlides: 1,
-            maxSlides: 1,
-            slideWidth: 320,
-            slideMargin: 15,
-            pager: false,
-            prevText: '',
-            nextText: ''
-        });
-    }
-}
-
-function responsive(newsize, isfirst){
-    if(newsize=='large'||newsize=='xlarge'||newsize=='xxlarge'){
-        $('.nav_share_tooltip').text('');
-    }
-
-    if(newsize=='medium'){
-        $('.nav_share>a').each(function(){
-            $('.nav_share_tooltip').append(this.outerHTML);
-        });
-        $('.nav_share>div').hover(function(){
-            $('.nav_share_tooltip').toggleClass('active');
-        });
-    }
-
-    if(newsize=='small'){
-        $('.nav_share_tooltip').text('');
-    }
-
-    if(ismain){
-        if(!isfirst){
-            rebuildsliders(newsize);
-            console.info('newsize: '+newsize);
-        } else if(newsize!='large'&&newsize!='xlarge'&&newsize!='xxlarge'){
-            setTimeout(function(){
-                rebuildsliders(newsize)
-            },'2000');
-            console.info('first time: '+newsize);
+            bxportfolio = $('.bxportfolio').bxSlider({
+                minSlides: 1,
+                maxSlides: 1,
+                slideWidth: 320,
+                slideMargin: 15,
+                pager: false,
+                prevText: '',
+                nextText: ''
+            });
         }
     }
 }
