@@ -52,10 +52,7 @@
                 <button class="show-for-small-only close-button" aria-label="Закрыть окно" type="button" data-close><span aria-hidden="true">&times;</span></button>
             </nav>
             <?if($is_homepage){?>
-                <section class="slider">
-                    <jdoc:include type="modules" name="slider" />
-                    <jdoc:include type="modules" name="call" />
-                </section>
+                <jdoc:include type="modules" name="slider" />
                 <jdoc:include type="modules" name="services" />
                 <jdoc:include type="modules" name="products" />
                 <jdoc:include type="modules" name="callsect" />

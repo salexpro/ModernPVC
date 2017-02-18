@@ -626,69 +626,75 @@ a{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        background-color: rgba(255, 255, 255, 0.89);
-        padding: 35px 100px;
-        @include breakpoint(medium down) {
-            width: calc(100% - 30px);
-            left: 0;
-            transform: none;
-            margin: 0 15px;
-            padding: 14px 70px;
-            padding-bottom: 22px;
-        }
-        @include breakpoint(small down) {
-            background: none;
-            padding: 0;
-        }
-        &_header{
-            flex: 1 1 100%;
-            text-align: center;
-            font-size: 24px;
-            font-weight: 400;
-            line-height: 32px;
-            margin-bottom: 35px;
-            @include breakpoint(medium down) {
-                font-size: 16px;
-                margin-bottom: 14px;
-            }
-            @include breakpoint(small down) {
-                display: none;
-            }
-            b{
-                font-weight: 500;
-            }
-        }
-        input {
-            flex: 0 1 28%;
-            margin: 0;
-            @include breakpoint(small down) {
-                display: none;
-            }
-            &[type="text"]{
-                font-size: 24px;
-                line-height: 28px;
-                padding: 16px;
-                @include breakpoint(medium down) {
-                    font-size: 14px;
-                    font-weight: 400;
-                    line-height: 16px;
-                    padding: 10px 15px;
-                }
-            }
-            &.button{
-                font-size: 16px;
-                line-height: 16px;
-                padding: 8px 12px;
-            }
-        }
+        // @include breakpoint(medium down) {
+        //     width: calc(100% - 30px);
+        //     left: 0;
+        //     transform: none;
+        //     margin: 0 15px;
+        //     padding: 14px 70px;
+        //     padding-bottom: 22px;
+        // }
+        // @include breakpoint(small down) {
+        //     background: none;
+        //     padding: 0;
+        // }
+        // &_header{
+        //     flex: 1 1 100%;
+        //     text-align: center;
+        //     font-size: 24px;
+        //     font-weight: 400;
+        //     line-height: 32px;
+        //     margin-bottom: 35px;
+        //     @include breakpoint(medium down) {
+        //         font-size: 16px;
+        //         margin-bottom: 14px;
+        //     }
+        //     @include breakpoint(small down) {
+        //         display: none;
+        //     }
+        //     b{
+        //         font-weight: 500;
+        //     }
+        // }
+        // input {
+        //     flex: 0 1 28%;
+        //     margin: 0;
+        //     @include breakpoint(small down) {
+        //         display: none;
+        //     }
+        //     &[type="text"]{
+        //         font-size: 24px;
+        //         line-height: 28px;
+        //         padding: 16px;
+        //         @include breakpoint(medium down) {
+        //             font-size: 14px;
+        //             font-weight: 400;
+        //             line-height: 16px;
+        //             padding: 10px 15px;
+        //         }
+        //     }
+        //     &.button{
+        //         font-size: 16px;
+        //         line-height: 16px;
+        //         padding: 8px 12px;
+        //     }
+        // }
         &_button{
-            font-size: 12px;
+            font-size: 25px;
             text-transform: uppercase;
             font-weight: 500;
             line-height: 14px;
-            padding: 6px 34px;
+            padding: 15px 34px;
             border-radius: 15px;
-            margin: 20px auto;
+            margin: auto;
+            transform: translateY(50%);
+            @include breakpoint(medium down) {
+                font-size: 20px;
+            }
+            @include breakpoint(small down) {
+                padding: 6px 34px;
+                font-size: 12px;
+            }
         }
     }
 }
