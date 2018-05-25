@@ -9,11 +9,7 @@
   "license": "MIT",
   "homepage": "http://foundation.zurb.com",
   "dependencies": {
-    "foundation-sites": "~6.2.0",
-    "motion-ui": "~1.2.2",
-    "font-awesome": "Font-Awesome#^4.5.0",
     "bxslider-4": "bxSlider#^4.2.5",
-    "faker": "facker#^3.1.0"
   },
   "ignore": [
     "**/.*",
@@ -24,7 +20,5 @@
   ],
   "private": true,
   "resolutions": {
-    "what-input": "~2.0.0",
-    "faker": "^3.1.0"
   }
 }
