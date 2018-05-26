@@ -1,0 +1,43 @@
+.portfolio {
+    padding-top: 80px;
+    padding-bottom: 110px;
+    @include breakpoint(1300px down) {
+        .columns {
+            margin: 0 56px;
+        }
+    }
+    @include breakpoint(medium down) {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    @include breakpoint(small down) {
+        padding-top: 25px;
+        .columns {
+            margin: 0 20px;
+        }
+        .bx-wrapper {
+            .bx-controls-direction a {
+                width: 20px;
+                height: 20px;
+                background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAA1ElEQVQ4T53TMQrCMBSA4aRQ00E8g97B0cWjmG6FLCJ4AScdnIRQaHMOcfQSurl4AkO7JZItaJO+l3eAj0fyP0oSRggx0113odYe2rZ9+gTFeg77aH0lhMwLxpZSyncy6GOTPF/Xdf34XQi8IQRzOAiEYiAQg42CWCwKpmBBMBUbBKuqmnZ9f3OdhdKItfv3y5zzlbH2TrPsqJpmjw1/MJtNWe6sMSdKyFYpdcagwQ5T0WjYKejopWDRUdC9HwYFgRgUDEJRFAhB0aCPFowtpJQvv9MvITmiFcJWAXMAAAAASUVORK5CYII=);
+            }
+            .bx-prev {
+                left: -25px;
+            }
+            .bx-next {
+                right: -25px;
+            }
+        }
+    }
+    &_header {
+        font-weight: 300;
+        line-height: 24px;
+        margin-bottom: 70px;
+        @include breakpoint(medium down) {
+            margin-bottom: 50px;
+        }
+        @include breakpoint(medium down) {
+            margin-bottom: 20px;
+        }
+    }
+}

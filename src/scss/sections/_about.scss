@@ -1,0 +1,74 @@
+.about {
+    padding-top: 65px;
+    padding-bottom: 80px;
+    font-weight: 300;
+    @include breakpoint(medium down) {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    @include breakpoint(small down) {
+        padding-top: 25px;
+        font-size: 13px;
+    }
+    &_header {
+        line-height: 28px;
+        margin-bottom: 42px;
+        font-weight: 300;
+        @include breakpoint(medium down) {
+            margin-bottom: 25px;
+        }
+        @include breakpoint(small down) {
+            line-height: 21px;
+            margin-bottom: 20px;
+        }
+    }
+    &_inner {
+        display: flex;
+        @include breakpoint(medium down) {
+            flex-wrap: wrap;
+            padding: 0 50px;
+        }
+        @include breakpoint(small down) {
+            padding: 0 30px;
+        }
+    }
+    &_info {
+        flex: 1 1 50%;
+        line-height: 27px;
+        padding: 10px 0;
+        @include breakpoint(medium down) {
+            min-width: 100%;
+            flex: 1 1 100%;
+            padding: 0;
+            padding-bottom: 40px;
+        }
+        @include breakpoint(small down) {
+            padding-bottom: 26px;
+            line-height: 1.7;
+            &:last-child {
+                display: none;
+            }
+        }
+    }
+    hr {
+        min-width: 1px;
+        height: 100%;
+        background-color: #ccc;
+        margin: 0 30px;
+        border: 0;
+        @include breakpoint(medium down) {
+            display: none;
+        }
+    }
+    &_more {
+        @include breakpoint(medium down) {
+            padding: 0 50px;
+        }
+        @include breakpoint(small down) {
+            padding: 0 30px;
+        }
+        a {
+            color: #2f9dee;
+        }
+    }
+}

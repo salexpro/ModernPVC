@@ -1,0 +1,28 @@
+@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation';
+
+// Foundation components
+@include foundation-global-styles;
+@include foundation-flex-grid;
+@include foundation-flex-classes;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-menu;
+@include foundation-visibility-classes;
+
+
+// Components
+@import 'components/fonts';
+@import 'components/base';
+@import '../../node_modules/bxslider/dist/jquery.bxslider.min';
+@import 'components/bx';
+
+// Sections
+@import 'sections/head';
+@import 'sections/nav';
+@import 'sections/leftmenu';
+@import 'sections/page';
+@import 'sections/slider';
+@import 'sections/actions';

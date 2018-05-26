@@ -1,0 +1,71 @@
+
+
+@include breakpoint(large) {
+    .bxreviews {
+        display: flex;
+    }
+}
+
+.bx {
+    &-viewport {
+        @include breakpoint(large) {
+            transition: 500ms
+        }
+    }
+    &-wrapper {
+        border: 0;
+        box-shadow: none;
+        margin: 0;
+        margin: auto;
+        background-color: transparent;
+        ul {
+            margin: 0;
+        }
+        img {
+            width: 100%;
+        }
+        .bx-controls-direction {
+            a {
+                margin: 0;
+                transform: translateY(-50%);
+                width: 36px;
+                height: 36px;
+                background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAABSklEQVRYR8XWMUpEMRAG4Jl98RgqeAcbrbS18wRrsqCt5WIvVh7AhDzbvYJYCFYWNoKNd9grzMgTLBR9yUtmsmmTzHwwxT8IDY5z7oSIzo0xS+/9+1hL1PbMF4tTJFoxswHEm/sYlxsD/cAArLeMOfDef2wE9Btjuu44hPCWmojKyEoxA1YcVIMRB9ViREESGDGQFEYEJImpBkljqkAamGKQFqYIpImZDNLGTAK1wGSDWmGyQNbaIwZ4+NpnANa5qZ1K9f/uk+F65twtE10OBWaI1zHGq9JmOf+SIOfcLhE9M8A2APAM8SLGeJdTvORNEjQUtdbuMfNTC1QWqCUqG9QKNQnUAjUZpI0qAmmiikFaqCqQBqoaJI0SAUmixEBSKFGQBEocVItSAdWg1EB/oUzX7YcQXsfWElXQN4oAHoF5BwEO+75/GQN9AswGcTSheoVwAAAAAElFTkSuQmCC);
+                background-position: 0 !important;
+            }
+        }
+        .bx-prev {
+            left: -56px;
+        }
+        a.bx-next {
+            right: -56px;
+            transform: scale(-1, 1) translateY(-50%);
+        }
+        .bx-pager {
+            padding: 0;
+            margin-bottom: -20px;
+            @include breakpoint(small down) {
+                margin-bottom: 0;
+            }
+            &.bx-default-pager {
+                a {
+                    background-color: $light-gray;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    @include breakpoint(small down) {
+                        width: 10px;
+                        height: 10px;
+                    }
+                    &:focus {
+                        background-color: $light-gray;
+                    }
+                    &.active,
+                    &:hover {
+                        background-color: #bab8b8;
+                    }
+                }
+            }
+        }
+    }
+}

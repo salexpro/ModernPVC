@@ -1,0 +1,55 @@
+.head {
+    height: 140px;
+    @include breakpoint(medium down) {
+        height: 160px;
+        padding: 0 50px;
+    }
+    @include breakpoint(small down) {
+        height: 82px;
+        padding: 0;
+        border-bottom: 2px solid map-get($foundation-palette, primary);
+    }
+    >.row {
+        height: 100%;
+    }
+    .logo {
+        @include breakpoint(medium down) {
+            max-width: 200px;
+        }
+    }
+    .contacts {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: $medium-gray;
+        font-size: 24px;
+        text-align: right;
+        font-weight: 300;
+        line-height: 50px;
+        @include breakpoint(medium down) {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+        }
+        @include breakpoint(small down) {
+            font-size: 14px;
+            padding-left: 0;
+            li:last-child {
+                display: none;
+            }
+        }
+        ul {
+            display: inline-block;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        a {
+            color: $medium-gray;
+        }
+    }
+    &_hamb {
+        @include hamburger(#4a4a4a, #4a4a4a, 24px, 20px, 2px, 3);
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,50 @@
+@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation';
+
+// Foundation components
+@include foundation-close-button;
+@include foundation-progress-bar;
+@include foundation-table;
+@include foundation-forms;
+
+// Sections
+@import 'sections/service';
+@import 'sections/products';
+@import 'sections/call';
+@import 'sections/why';
+@import 'sections/about';
+@import 'sections/how';
+@import 'sections/portfolio';
+@import 'sections/reviews';
+@import 'sections/footer';
+
+.chrono_credits {
+    display: none;
+}
+
+
+.actions {
+    padding-top: 70px;
+    @include breakpoint(medium down) {
+        padding: 0 15px;
+        padding-top: 65px;
+    }
+    @include breakpoint(small down) {
+        padding: 0 25px;
+        padding-top: 25px;
+    }
+    h2 {
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 70px;
+        font-weight: 300;
+        @include breakpoint(medium down) {
+            margin-bottom: 65px;
+        }
+        @include breakpoint(small down) {
+            margin-bottom: 15px;
+        }
+    }
+}

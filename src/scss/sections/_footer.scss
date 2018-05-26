@@ -1,0 +1,165 @@
+.footer {
+    padding-top: 32px;
+    background-color: map-get($foundation-palette, secondary);
+    font-weight: 300;
+    @include breakpoint(medium down) {
+        padding-top: 45px;
+        .row {
+            padding: 0 50px;
+        }
+    }
+    @include breakpoint(small down) {
+        padding: 0;
+        .row {
+            padding: 30px 15px;
+        }
+    }
+    .row>div {
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 1px;
+            height: 100%;
+            background-color: #263f50;
+        }
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+    }
+    &_logo {
+        padding-top: 20px;
+        padding-right: 20px;
+        @include breakpoint(medium down) {
+            padding-top: 0;
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+            &::after {
+                display: none;
+            }
+        }
+    }
+    &_menu {
+        font-size: 18px;
+        line-height: 27px;
+        padding: 5px 30px;
+        @include breakpoint(medium down) {
+            padding: 0 15px;
+            padding-top: 40px;
+            padding-right: 35px;
+            &.small-order-4 {
+                padding: 0 45px !important;
+                padding-top: 40px !important;
+            }
+        }
+        @include breakpoint(small down) {
+            @include flex-grid-column(6);
+            padding: 0 15px !important;
+            padding-top: 12px !important;
+            font-size: 12px;
+            line-height: 1;
+            &.small-order-4 {
+                padding: 0 22px !important;
+                padding-top: 12px !important;
+                &::after {
+                    display: none;
+                }
+            }
+        }
+        a {
+            display: block;
+            color: $white;
+            margin-bottom: 5px;
+            @include breakpoint(medium down) {
+                margin-bottom: 10px;
+            }
+            @include breakpoint(small down) {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &_text {
+        padding: 0 35px;
+        color: #b1b0b0;
+        line-height: 25px;
+        @include breakpoint(medium down) {
+            padding-top: 40px;
+            padding-right: 15px;
+            &::after {
+                display: none;
+            }
+        }
+        @include breakpoint(small down) {
+            padding-left: 15px;
+            font-size: 11px;
+            line-height: 2;
+        }
+    }
+    &_contacts {
+        font-size: 20px;
+        line-height: 27px;
+        color: $white;
+        text-align: right;
+        @include breakpoint(medium down) {
+            @include flex-grid-column(6);
+            font-size: 18px;
+            margin-bottom: 6px;
+        }
+        @include breakpoint(small down) {
+            @include flex-grid-column(7);
+            font-size: 13px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            font-weight: 400;
+        }
+        a {
+            display: block;
+            margin-bottom: 5px;
+            color: $white;
+        }
+        li:last-child {
+            font-size: 16px;
+            line-height: 19px;
+            margin-top: 20px;
+            @include breakpoint(medium down) {
+                font-size: 14px;
+                line-height: 16px;
+                margin-top: 10px;
+            }
+            @include breakpoint(small down) {
+                display: none;
+            }
+        }
+        &:after {
+            display: none;
+        }
+    }
+    &_bottom {
+        margin-top: 45px;
+        height: 55px;
+        background-color: #263f50;
+        line-height: 55px;
+        font-size: 18px;
+        font-weight: 300;
+        color: #b1b0b0;
+        @include breakpoint(small down) {
+            height: 40px;
+            line-height: 15px;
+            margin-top: 0;
+            font-size: 11px;
+            display: flex;
+            padding: 0 15px;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        a {
+            color: #b1b0b0;
+        }
+    }
+}

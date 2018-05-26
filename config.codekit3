@@ -12,840 +12,1166 @@
 	"\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.gitignore",
+		"oA": 1,
+		"oAP": "\/modernpvc\/.gitignore",
+		"oF": 1
+		},
+	"\/beez3": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/modernpvc\/beez3",
 		"oF": 0
 		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/bower-min.json",
+		"oAP": "\/modernpvc\/bower.json",
 		"oF": 0,
 		"oO": 0,
-		"oS": 1
-		},
-	"\/component.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/component.php",
-		"oF": 0
-		},
-	"\/css\/app.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/app-min.css",
-		"oF": 0,
 		"oS": 0
 		},
-	"\/css\/inline.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/inline-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/error.php": {
+	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/error.php",
-		"oF": 0
-		},
-	"\/html\/com_content\/article\/default.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/html\/com_content\/article\/default.php",
-		"oF": 0
-		},
-	"\/html\/com_content\/article\/default_links.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/html\/com_content\/article\/default_links.php",
-		"oF": 0
-		},
-	"\/html\/mod_custom\/clear.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/html\/mod_custom\/clear.php",
-		"oF": 0
-		},
-	"\/html\/mod_custom\/section.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/html\/mod_custom\/section.php",
-		"oF": 0
-		},
-	"\/html\/mod_menu\/default_url.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/html\/mod_menu\/default_url.php",
-		"oF": 0
-		},
-	"\/html\/mod_menu\/leftmenu.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/html\/mod_menu\/leftmenu.php",
-		"oF": 0
-		},
-	"\/html\/mod_menu\/menu.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/html\/mod_menu\/menu.php",
-		"oF": 0
-		},
-	"\/html\/modules.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/html\/modules.php",
-		"oF": 0
-		},
-	"\/img\/advantages\/service.png": {
-		"ft": 32768,
-		"iS": 1409,
-		"oA": 0,
-		"oAP": "\/img\/advantages\/service.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/advantages\/support.png": {
-		"ft": 32768,
-		"iS": 2106,
-		"oA": 0,
-		"oAP": "\/img\/advantages\/support.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/advantages\/warranty.png": {
-		"ft": 32768,
-		"iS": 2338,
-		"oA": 0,
-		"oAP": "\/img\/advantages\/warranty.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/deco.jpg": {
-		"ft": 16384,
-		"iS": 7187,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/deco.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/design.jpg": {
-		"ft": 16384,
-		"iS": 6410,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/design.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/designplus.jpg": {
-		"ft": 16384,
-		"iS": 7262,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/designplus.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/foot_logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/foot_logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/how\/calculate.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/how\/calculate.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/how\/call.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/how\/call.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/how\/delivery.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/how\/delivery.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/how\/production.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/how\/production.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/how\/reception.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/how\/reception.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/how\/warranty.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/how\/warranty.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/icons\/delivery.png": {
-		"ft": 32768,
-		"iS": 4379,
-		"oA": 0,
-		"oAP": "\/img\/icons\/delivery.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/icons\/garbage.png": {
-		"ft": 32768,
-		"iS": 3957,
-		"oA": 0,
-		"oAP": "\/img\/icons\/garbage.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/icons\/install.png": {
-		"ft": 32768,
-		"iS": 5565,
-		"oA": 0,
-		"oAP": "\/img\/icons\/install.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/icons\/installments.png": {
-		"ft": 32768,
-		"iS": 7412,
-		"oA": 0,
-		"oAP": "\/img\/icons\/installments.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/icons\/measurement.png": {
-		"ft": 32768,
-		"iS": 5177,
-		"oA": 0,
-		"oAP": "\/img\/icons\/measurement.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/icons\/phone.png": {
-		"ft": 32768,
-		"iS": 2899,
-		"oA": 0,
-		"oAP": "\/img\/icons\/phone.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/icons\/warr_serv.png": {
-		"ft": 32768,
-		"iS": 3528,
-		"oA": 0,
-		"oAP": "\/img\/icons\/warr_serv.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/img\/index.html",
-		"oF": 0
-		},
-	"\/img\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/prod\/accesories.jpg": {
-		"ft": 16384,
-		"iS": 50933,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/prod\/accesories.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/prod\/finishing.jpg": {
-		"ft": 16384,
-		"iS": 71784,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/prod\/finishing.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/prod\/loggias.jpg": {
-		"ft": 16384,
-		"iS": 78103,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/prod\/loggias.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/prod\/winpvc.jpg": {
-		"ft": 16384,
-		"iS": 48038,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/prod\/winpvc.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/services.jpg": {
-		"ft": 16384,
-		"iS": 49959,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/services.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/services\/delivery.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/services\/delivery.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/services\/garbage.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/services\/garbage.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/services\/install.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/services\/install.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/services\/installments.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/services\/installments.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/services\/measurement.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/services\/measurement.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/services\/warranty.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/services\/warranty.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/standart.jpg": {
-		"ft": 16384,
-		"iS": 6893,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/standart.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/vita.jpg": {
-		"ft": 16384,
-		"iS": 6488,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/vita.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/why\/find.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/why\/find.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/why\/manufacture.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/why\/manufacture.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/why\/prices.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/why\/prices.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/why\/security.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/why\/security.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/why\/service.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/why\/service.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/why\/warranty.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/why\/warranty.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/windows\/designplus_2.png": {
-		"ft": 32768,
-		"iS": 1030,
-		"oA": 0,
-		"oAP": "\/img\/windows\/designplus_2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/windows\/designplus_3.png": {
-		"ft": 32768,
-		"iS": 1341,
-		"oA": 0,
-		"oAP": "\/img\/windows\/designplus_3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/windows\/designplus_balk.png": {
-		"ft": 32768,
-		"iS": 1652,
-		"oA": 0,
-		"oAP": "\/img\/windows\/designplus_balk.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/windows\/glazing.png": {
-		"ft": 32768,
-		"iS": 10043,
-		"oA": 0,
-		"oAP": "\/img\/windows\/glazing.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/windows\/standart_2.png": {
-		"ft": 32768,
-		"iS": 931,
-		"oA": 0,
-		"oAP": "\/img\/windows\/standart_2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/windows\/standart_3.png": {
-		"ft": 32768,
-		"iS": 1155,
-		"oA": 0,
-		"oAP": "\/img\/windows\/standart_3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/windows\/standart_balk.png": {
-		"ft": 32768,
-		"iS": 6014,
-		"oA": 0,
-		"oAP": "\/img\/windows\/standart_balk.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/windows\/stv_2.png": {
-		"ft": 32768,
-		"iS": 916,
-		"oA": 0,
-		"oAP": "\/img\/windows\/stv_2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/windows\/stv_3.png": {
-		"ft": 32768,
-		"iS": 1142,
-		"oA": 0,
-		"oAP": "\/img\/windows\/stv_3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/windows\/stv_balk.png": {
-		"ft": 32768,
-		"iS": 1390,
-		"oA": 0,
-		"oAP": "\/img\/windows\/stv_balk.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/windows\/titanplus_2.png": {
-		"ft": 32768,
-		"iS": 800,
-		"oA": 0,
-		"oAP": "\/img\/windows\/titanplus_2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/windows\/titanplus_3.png": {
-		"ft": 32768,
-		"iS": 1026,
-		"oA": 0,
-		"oAP": "\/img\/windows\/titanplus_3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/windows\/titanplus_balk.png": {
-		"ft": 32768,
-		"iS": 1357,
-		"oA": 0,
-		"oAP": "\/img\/windows\/titanplus_balk.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/index.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index.php",
-		"oF": 0
-		},
-	"\/js\/app.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/app.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/js\/app.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
 		"oA": 1,
-		"oAP": "\/js\/app.min.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
+		"oAP": "\/modernpvc\/index.html",
+		"oF": 1
 		},
-	"\/js\/jquery.bxslider.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/jquery.bxslider.min.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/js\/share.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/share.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/language\/ru-RU\/ru-RU.tpl_modernpvc.ini": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/language\/ru-RU\/ru-RU.tpl_modernpvc.ini",
+	"\/modernpvc": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/modernpvc\/modernpvc",
 		"oF": 0
 		},
-	"\/language\/ru-RU\/ru-RU.tpl_modernpvc.sys.ini": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/language\/ru-RU\/ru-RU.tpl_modernpvc.sys.ini",
+	"\/modernpvc-old": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/modernpvc\/modernpvc-old",
 		"oF": 0
 		},
 	"\/node_modules": {
 		"ft": 65536,
-		"oA": 2,
-		"oAP": "\/build\/node_modules",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/modernpvc\/node_modules",
+		"oF": 1
+		},
+	"\/node_modules\/bxslider\/dist\/jquery.bxslider.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/modernpvc\/node_modules\/bxslider\/dist\/jquery.bxslider.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.core.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/modernpvc\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.core.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.offcanvas.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/modernpvc\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.offcanvas.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.reveal.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/modernpvc\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.reveal.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.box.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/modernpvc\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.box.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.keyboard.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/modernpvc\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.keyboard.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.mediaQuery.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/modernpvc\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.mediaQuery.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.motion.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/modernpvc\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.motion.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.triggers.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/modernpvc\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.triggers.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/jquery\/dist\/jquery.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/modernpvc\/node_modules\/jquery\/dist\/jquery.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/package-lock-min.json",
+		"oAP": "\/modernpvc\/package-lock.json",
 		"oF": 0,
 		"oO": 0,
-		"oS": 1
+		"oS": 0
 		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/package-min.json",
+		"oAP": "\/modernpvc\/package.json",
 		"oF": 0,
 		"oO": 0,
-		"oS": 1
+		"oS": 0
 		},
-	"\/scss\/_settings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
+	"\/protostar": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/css\/_settings.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
+		"oAP": "\/modernpvc\/protostar",
+		"oF": 0
 		},
-	"\/scss\/app.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "css\/app.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/scss\/inline.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/inline.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/scss\/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/template_preview.png": {
-		"ft": 32768,
-		"iS": 55715,
-		"oA": 0,
-		"oAP": "\/template_preview.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/template_thumbnail.png": {
-		"ft": 32768,
-		"iS": 11907,
-		"oA": 0,
-		"oAP": "\/template_thumbnail.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/templateDetails.xml": {
+	"\/src\/component.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/templateDetails.xml",
+		"oAP": "\/modernpvc\/component.php",
+		"oF": 0
+		},
+	"\/src\/error.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modernpvc\/error.php",
+		"oF": 0
+		},
+	"\/src\/html\/com_content\/article\/default.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modernpvc\/html\/com_content\/article\/default.php",
+		"oF": 0
+		},
+	"\/src\/html\/com_content\/article\/default_links.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modernpvc\/html\/com_content\/article\/default_links.php",
+		"oF": 0
+		},
+	"\/src\/html\/mod_custom\/clear.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modernpvc\/html\/mod_custom\/clear.php",
+		"oF": 0
+		},
+	"\/src\/html\/mod_custom\/section.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modernpvc\/html\/mod_custom\/section.php",
+		"oF": 0
+		},
+	"\/src\/html\/mod_menu\/default_url.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modernpvc\/html\/mod_menu\/default_url.php",
+		"oF": 0
+		},
+	"\/src\/html\/mod_menu\/leftmenu.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modernpvc\/html\/mod_menu\/leftmenu.php",
+		"oF": 0
+		},
+	"\/src\/html\/mod_menu\/menu.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modernpvc\/html\/mod_menu\/menu.php",
+		"oF": 0
+		},
+	"\/src\/html\/modules.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modernpvc\/html\/modules.php",
+		"oF": 0
+		},
+	"\/src\/img\/advantages\/service.png": {
+		"ft": 32768,
+		"iS": 1409,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/advantages\/service.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/advantages\/support.png": {
+		"ft": 32768,
+		"iS": 2106,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/advantages\/support.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/advantages\/warranty.png": {
+		"ft": 32768,
+		"iS": 2338,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/advantages\/warranty.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/deco.jpg": {
+		"ft": 16384,
+		"iS": 7187,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/deco.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/img\/design.jpg": {
+		"ft": 16384,
+		"iS": 6410,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/design.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/img\/designplus.jpg": {
+		"ft": 16384,
+		"iS": 7262,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/designplus.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/img\/foot_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/foot_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/how\/calculate.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/how\/calculate.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/how\/call.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/how\/call.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/how\/delivery.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/how\/delivery.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/how\/production.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/how\/production.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/how\/reception.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/how\/reception.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/how\/warranty.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/how\/warranty.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/icons\/delivery.png": {
+		"ft": 32768,
+		"iS": 4379,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/icons\/delivery.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/icons\/garbage.png": {
+		"ft": 32768,
+		"iS": 3957,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/icons\/garbage.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/icons\/install.png": {
+		"ft": 32768,
+		"iS": 5565,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/icons\/install.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/icons\/installments.png": {
+		"ft": 32768,
+		"iS": 7412,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/icons\/installments.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/icons\/measurement.png": {
+		"ft": 32768,
+		"iS": 5177,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/icons\/measurement.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/icons\/phone.png": {
+		"ft": 32768,
+		"iS": 2899,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/icons\/phone.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/icons\/warr_serv.png": {
+		"ft": 32768,
+		"iS": 3528,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/icons\/warr_serv.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/index.html",
+		"oF": 0
+		},
+	"\/src\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/prod\/accesories.jpg": {
+		"ft": 16384,
+		"iS": 47715,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/prod\/accesories.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/img\/prod\/finishing.jpg": {
+		"ft": 16384,
+		"iS": 67168,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/prod\/finishing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/img\/prod\/loggias.jpg": {
+		"ft": 16384,
+		"iS": 72540,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/prod\/loggias.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/img\/prod\/winpvc.jpg": {
+		"ft": 16384,
+		"iS": 44725,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/prod\/winpvc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/img\/services.jpg": {
+		"ft": 16384,
+		"iS": 49959,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/services.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/img\/services\/delivery.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/services\/delivery.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/services\/garbage.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/services\/garbage.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/services\/install.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/services\/install.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/services\/installments.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/services\/installments.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/services\/measurement.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/services\/measurement.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/services\/warranty.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/services\/warranty.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/standart.jpg": {
+		"ft": 16384,
+		"iS": 6893,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/standart.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/img\/vita.jpg": {
+		"ft": 16384,
+		"iS": 6488,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/vita.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/img\/why\/find.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/why\/find.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/why\/manufacture.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/why\/manufacture.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/why\/prices.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/why\/prices.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/why\/security.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/why\/security.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/why\/service.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/why\/service.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/why\/warranty.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/modernpvc\/img\/why\/warranty.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/windows\/designplus_2.png": {
+		"ft": 32768,
+		"iS": 1028,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/windows\/designplus_2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/windows\/designplus_3.png": {
+		"ft": 32768,
+		"iS": 1339,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/windows\/designplus_3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/windows\/designplus_balk.png": {
+		"ft": 32768,
+		"iS": 1650,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/windows\/designplus_balk.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/windows\/glazing.png": {
+		"ft": 32768,
+		"iS": 10043,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/windows\/glazing.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/windows\/standart_2.png": {
+		"ft": 32768,
+		"iS": 930,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/windows\/standart_2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/windows\/standart_3.png": {
+		"ft": 32768,
+		"iS": 1153,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/windows\/standart_3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/windows\/standart_balk.png": {
+		"ft": 32768,
+		"iS": 3428,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/windows\/standart_balk.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/windows\/stv_2.png": {
+		"ft": 32768,
+		"iS": 916,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/windows\/stv_2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/windows\/stv_3.png": {
+		"ft": 32768,
+		"iS": 1136,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/windows\/stv_3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/windows\/stv_balk.png": {
+		"ft": 32768,
+		"iS": 1382,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/windows\/stv_balk.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/windows\/titanplus_2.png": {
+		"ft": 32768,
+		"iS": 790,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/windows\/titanplus_2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/windows\/titanplus_3.png": {
+		"ft": 32768,
+		"iS": 1015,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/windows\/titanplus_3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/windows\/titanplus_balk.png": {
+		"ft": 32768,
+		"iS": 1357,
+		"oA": 0,
+		"oAP": "\/modernpvc\/img\/windows\/titanplus_balk.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modernpvc\/index.php",
+		"oF": 0
+		},
+	"\/src\/js\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/modernpvc\/js\/app.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/src\/js\/data\/prices.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/modernpvc\/js\/data\/prices.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 0
+		},
+	"\/src\/js\/share.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/modernpvc\/js\/share.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/src\/language\/ru-RU\/ru-RU.tpl_modernpvc.ini": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modernpvc\/language\/ru-RU\/ru-RU.tpl_modernpvc.ini",
+		"oF": 0
+		},
+	"\/src\/language\/ru-RU\/ru-RU.tpl_modernpvc.sys.ini": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modernpvc\/language\/ru-RU\/ru-RU.tpl_modernpvc.sys.ini",
+		"oF": 0
+		},
+	"\/src\/scss\/_settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/_settings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/app.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/modernpvc\/css\/app.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/components\/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/components\/_base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/components\/_bx.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/components\/_bx.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/components\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/components\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/inline.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/modernpvc\/css\/inline.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_about.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_about.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_actions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_actions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_call.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_call.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_head.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_head.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_how.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_how.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_leftmenu.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_leftmenu.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_nav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_page.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_page.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_portfolio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_portfolio.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_products.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_products.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_reviews.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_reviews.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_service.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_service.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_slider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_slider.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/scss\/sections\/_why.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/modernpvc\/css\/sections\/_why.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/template_preview.png": {
+		"ft": 32768,
+		"iS": 55715,
+		"oA": 0,
+		"oAP": "\/modernpvc\/template_preview.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/template_thumbnail.png": {
+		"ft": 32768,
+		"iS": 11907,
+		"oA": 0,
+		"oAP": "\/modernpvc\/template_thumbnail.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/templateDetails.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modernpvc\/templateDetails.xml",
+		"oF": 0
+		},
+	"\/system": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/modernpvc\/system",
 		"oF": 0
 		}
 	},
@@ -858,12 +1184,13 @@
 	"displayValue": "Sovdiz",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-trap",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 548987598
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 1,
-	"animateCSSInjections": 1,
+	"animateCSSInjections": 0,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
@@ -1114,8 +1441,8 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"buildFolderActive": 0,
-	"buildFolderName": "build",
+	"buildFolderActive": 1,
+	"buildFolderName": "modernpvc",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -2678,13 +3005,13 @@
 		},
 	"languageDefaultsJSON": {
 		"autoOutputAction": 1,
-		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathFilenamePattern": "*.json",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
-		"outputStyle": 1
+		"outputStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -2768,9 +3095,9 @@
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
 		"autoOutputPathRelativePath": "..\/css",
-		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace1": "scss",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 3,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
@@ -2840,8 +3167,8 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
-	"sourceFolderName": "source",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, modernpvc-old, beez3, protostar, system",
+	"sourceFolderName": "src",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
@@ -3011,7 +3338,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/modernpvc"
 	},
 "settingsFileVersion": "3"
 }

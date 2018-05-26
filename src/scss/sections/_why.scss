@@ -1,0 +1,48 @@
+.why,
+.how {
+    padding-top: 65px;
+    padding-bottom: 105px;
+    background-color: $light-gray;
+    @include breakpoint(medium down) {
+        padding-top: 35px;
+        padding-bottom: 0;
+    }
+    @include breakpoint(small down) {
+        padding-top: 25px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    &_header {
+        font-weight: 300;
+        line-height: 28px;
+        margin-bottom: 65px;
+        @include breakpoint(medium down) {
+            margin-bottom: 55px;
+        }
+        @include breakpoint(small down) {
+            line-height: 21px;
+            margin-bottom: 30px;
+        }
+    }
+    .columns {
+        text-align: center;
+        @include breakpoint(medium down) {
+            margin-bottom: 60px;
+        }
+        @include breakpoint(small down) {
+            margin-bottom: 45px;
+            &:nth-of-type(3n+2) {
+                padding: 0;
+            }
+        }
+        img {
+            display: block;
+            margin: auto;
+            margin-bottom: 25px;
+            @include breakpoint(small down) {
+                height: 37px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

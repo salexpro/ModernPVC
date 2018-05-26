@@ -1,0 +1,91 @@
+.wrap {
+    min-width: 320px;
+}
+
+[type='text'],
+[type='password'],
+[type='date'],
+[type='datetime'],
+[type='datetime-local'],
+[type='month'],
+[type='week'],
+[type='email'],
+[type='number'],
+[type='search'],
+[type='tel'],
+[type='time'],
+[type='url'],
+[type='color'],
+textarea {
+    line-height: 17px;
+    padding: 18px 20px;
+    height: auto;
+    @include breakpoint(medium down) {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px 15px;
+    }
+    @include breakpoint(small down) {
+        padding: 7px 10px;
+    }
+}
+
+a {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+.close-button {
+    outline: none;
+    font-weight: 300;
+}
+
+.button {
+    outline: none;
+    @include breakpoint(medium down) {
+        font-size: 16px;
+        line-height: 19px;
+        padding: 13px;
+    }
+    @include breakpoint(small down) {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 8px;
+    }
+    &.gray {
+        background-color: #bab8b8;
+        &:hover,
+        &:focus {
+            background-color: darken(#bab8b8, 15);
+        }
+    }
+}
+
+.progress {
+    &-meter {
+        border-radius: 25px;
+        padding-left: 15px;
+        background-image: linear-gradient(180deg, #0bacf3 0%, #0473e4 100%);
+        line-height: 16px;
+        font-size: 10px;
+        color: $white;
+        text-shadow: 0 0 20px $black;
+        overflow: hidden;
+        transition: 500ms
+    }
+    &.warning {
+        .progress-meter {
+            background-image: linear-gradient(180deg, #fcb800 0%, #f88100 100%);
+        }
+    }
+    &.success {
+        .progress-meter {
+            background-image: linear-gradient(180deg, #00f0b9 0%, #07d081 100%);
+        }
+    }
+}
